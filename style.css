@@ -1,0 +1,64 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0 0 100px 0;
+}
+
+#win {
+	display: none;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+}
+
+#btn1, #btn2, #Window {
+	width: 100px;
+	height: 50px;
+	background: pink;
+	text-align: center;
+	line-height: 50px;
+}
+
+.block {
+	width: 100px;
+	height: 200px;
+	background-color: pink;
+}
+
+.mainText {
+	height: 326px;
+	width: 326px;
+	overflow: hidden;
+	position: relative;
+}
+
+.imgBlock {
+	height: 326px;
+	width: 326px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(smile.jpg);
+	transition: all ease 0.5s;
+}
+
+.address {
+	height: 20px;
+	background: green;
+	color: white;
+	padding: 1px;
+	position: fixed;
+	left: 0;
+	bottom: -20px;
+	border-top-right-radius: 5px;
+	transition: all ease 0.5s;
+}
+
+.bug {
+	color: white;
+	background-color: red;
+}
